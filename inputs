@@ -1,0 +1,65 @@
+Input for DAA practicals
+Huffman coding-Time-O(n log n) space-O(n)
+Enter the number of characters: 6
+Enter character 1: a
+Enter frequency for character a: 5
+Enter character 2: b
+Enter frequency for character b: 9
+Enter character 3: c
+Enter frequency for character c: 12
+Enter character 4: d
+Enter frequency for character d: 13
+Enter character 5: e
+Enter frequency for character e: 16
+Enter character 6: f
+Enter frequency for character f: 45
+Characters: ['a', 'b', 'c', 'd', 'e', 'f']
+Frequency: [5, 9, 12, 13, 16, 45]
+Huffman Encoding:
+f -> 0
+c -> 100
+d -> 101
+a -> 1100
+b -> 1101
+e -> 111
+-----------------------------------------------------------------------------------------------------------
+kanpsack using greedy time-O(n log n) space- O(1)
+
+Enter the number of items: 4
+Enter the weights:
+40
+10
+20
+24
+Enter the Profits:
+280
+100
+120
+120
+Enter the capacity of the knapsack: 60
+Maximum value in Knapsack = 440.0
+---------------------------------------------------------------------------------------------------------
+knapsack using branch and bound time-O(2^n) space-O(n)
+Enter the number of items: 4
+Enter weight 1: 2
+Enter weight 2: 4
+Enter weight 3: 6
+Enter weight 4: 9
+Enter value 1: 10
+Enter value 2: 10
+Enter value 3: 12
+Enter value 4: 18
+Enter knapsack capacity: 15
+Maximum value: 38
+Best solution: [0, 1, 3]
+
+-------------------------------------------------------------------------------------------------------------
+N-queens time-O(n)  space - O(n^2)
+Enter the size of the chessboard (N): 4
+Enter the row position (0 to N-1) of the first queen: 2
+Enter the column position (0 to N-1) of the first queen: 3
+N Queen Backtracking Solution:
+0 0 1 0
+1 0 0 0
+0 0 0 1
+0 1 0 0
